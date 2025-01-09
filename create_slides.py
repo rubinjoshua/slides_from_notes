@@ -18,10 +18,10 @@ from collections import defaultdict
 MD_FILE_PATH = "/Users/joshuarubin/Library/Mobile Documents/com~apple~CloudDocs/לימוד הלכה/שבת"
 RABBI_FILE_PATH = "./Rabbi Stickers"
 ALTERNATIVE_RABBI_PATH = "./Rabbi Stickers backup"
-BUBBLE_SVG_PATH = "/up_bubble.svg"
+BUBBLE_SVG_PATH = "./up_bubble.svg"
 IMAGES_PATH = "./images/"
 CONTINUE_DATA = "./continue.txt"
-NUM_OF_SLIDES = 12
+NUM_OF_SLIDES = 1
 
 def mkdir_if_not_exist(path):
     if not os.path.exists(path):
